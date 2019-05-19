@@ -25,7 +25,7 @@
             android:layout_marginBottom="20dp"
             android:scaleType="centerCrop"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo" />
+            android:src="@drawable/ic_register" />
 
         <TextView
             android:layout_width="match_parent"
@@ -136,6 +136,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Already have account ?"
+            android:textSize="20sp"
             android:textColor="#111" />
 
         <TextView
@@ -143,6 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:onClick="openLogin"
+            android:textSize="20sp"
             android:text="Click here"
             android:textColor="#3C75CA" />
     </LinearLayout>

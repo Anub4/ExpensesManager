@@ -5,15 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imgBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:padding="8dp"
-        app:srcCompat="@drawable/ic_arrow_back" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome back!"
+            android:text="Welcome!"
             android:textAlignment="center"
             android:textColor="#0C0C0C"
             android:textSize="26dp" />
@@ -94,16 +85,25 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/drawable_button"
             android:text="LOG IN"
             android:onClick="login"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
+        <TextView
+            android:id="@+id/tvOr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OR"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/drawable_button"
             android:text="LOG IN WITH FACEBOOK"
             android:textColor="#fFFFFF"
@@ -122,12 +122,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Don't have account ?"
+            android:textSize="20sp"
             android:textColor="#111" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+            android:textSize="20sp"
             android:onClick="openRegister"
             android:text="Register here"
             android:textColor="#3C75CA" />
